@@ -8,8 +8,9 @@
 /* ====================================== */
 
 body {
-overflow-x: hidden;
-background: #FFF;
+	overflow-x: hidden;
+	background: #FFF;
+	color: #5C5E6C;
 }
 
 .row {
@@ -119,7 +120,7 @@ iframe, embed, object {
 }
 
 .flex-caption.primary {
-	background:#000;
+	background:#5C5E6C;
 }
 .flex-caption.success {
 	background:#7cbb00;
@@ -547,6 +548,7 @@ section#subintro h2 {
 }
 
 .carousel-caption {
+	height: 65px;
 	opacity:0.9;
 	background-color: #5C5E6C;
 }
@@ -630,11 +632,16 @@ section#subintro h2 {
 }
 
 .service-list {
+	letter-spacing: 0.1em;
 	color: #61C5C1;
 }
 
 .service-list span {
 	color: #F5877C;
+}
+
+.accordion-inner p {
+	letter-spacing: 0.1em;
 }
 
 /* About */

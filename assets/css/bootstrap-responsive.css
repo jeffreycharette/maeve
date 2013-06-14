@@ -1058,6 +1058,40 @@
     border: 1px solid #ccc;
   }
 
+	nav select {
+		float: left !important;
+		margin-left: 15px;
+		width: 88% !important;
+	}
+	
+	.tabs-left > .nav-tabs {
+		float: none !important;
+		border: 1px solid #ddd !important;
+	}
+	
+	.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:hover {
+		text-align: center;
+	}
+	
+	.tabs-left > .nav-tabs > li > a, .tabs-right > .nav-tabs > li > a {
+		text-align: center;
+	}
+	
+	.carousel-caption {
+		padding: 5px 10px 10px 10px !important;
+		height: 55px !important;
+	}
+
+	.carousel-caption h4 {
+		margin: 0 !important;
+		font-size: 16px !important;
+	}
+
+	.carousel-caption p {
+		font-size: 11px !important;
+		line-height: 120% !important;
+	}
+
   .form-horizontal .control-label {
     float: none;
     width: auto;
