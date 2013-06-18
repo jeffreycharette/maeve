@@ -47,6 +47,15 @@
 <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <header>
 <!-- Navbar
 ================================================== -->
@@ -175,25 +184,7 @@
 		<div class="span3">
 			<div class="widget">
 				<h4>LATEST FACEBOOK POSTS</h4>
-				<div class="twitter">
-				</div>
-				<script type="text/javascript">
-				$(document).ready(function(){
-					//TWITTER
-					$(".twitter").tweet({
-						join_text: "auto",
-						username: "wrapbootstrap",
-						avatar_size: 20,
-						count: 2,
-						auto_join_text_default: "we said,",
-						auto_join_text_ed: "we",
-						auto_join_text_ing: "we were",
-						auto_join_text_reply: "we replied",
-						auto_join_text_url: "we were checking out",
-						loading_text: "loading tweets..."
-					});
-				});
-				</script>
+				<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FDesignMaeven&amp;width=270&amp;height=180&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;show_border=true&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:180px;" allowTransparency="true"></iframe>
 			</div>
 		</div>
 		<div class="span4">
@@ -209,7 +200,7 @@
 												</div> -->
 						<p>
 							<ul class="social_small">
-								<li class="facebook first"><a href="http://www.facebook.com/maeve.rogers" target="_blank" title="Facebook">Facebook</a></li>
+								<li class="facebook first"><a href="https://www.facebook.com/DesignMaeven" target="_blank" title="Facebook">Facebook</a></li>
 								<li class="linkedin"><a href="http://www.linkedin.com/pub/maeve-rogers/12/138/703" target="_blank" title="LinkedIn">LinkedIn</a></li>
 								<li class="pinterest"><a href="http://pinterest.com/maezieloo/" target="_blank" title="Pinterest">Pinterest</a></li>
 							</ul>

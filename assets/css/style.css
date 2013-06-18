@@ -1600,6 +1600,10 @@ footer.footer .input-append button, footer.footer .input-append input {
 	border:none;
 }
 
+footer iframe {
+	background: #fff;
+}
+
 /* misc */
 .center {
 	text-align: center;
